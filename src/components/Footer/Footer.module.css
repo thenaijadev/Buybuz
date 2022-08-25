@@ -1,0 +1,28 @@
+.footer {
+  background-color: #004b73;
+  color: aliceblue;
+  margin-top: 5%;
+  margin-bottom: 0;
+}
+
+.links_div {
+  display: flex;
+  justify-content: space-around;
+  padding: 5%;
+}
+
+.link_div {
+  height: 23vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.link_head {
+  font-weight: 900;
+}
+
+.copyright_div {
+  padding-left: 9.5%;
+  padding-bottom: 5%;
+}

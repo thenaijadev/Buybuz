@@ -1,0 +1,13 @@
+.searchbar {
+  width: 40vw;
+  height: 7vh;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  padding: 0 20px;
+  transform: translateX(40%);
+}
+
+.search_icon {
+  z-index: 20;
+}

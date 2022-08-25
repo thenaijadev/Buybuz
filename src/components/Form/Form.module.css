@@ -1,0 +1,95 @@
+.form_div {
+  background-color: #cce4f0;
+  box-shadow: 1px 1px 3px rgb(0, 12, 78);
+  width: 30vw;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  padding: 3% 0 0 0;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: 20px 0;
+  padding: 5% 0;
+}
+
+.input {
+  padding: 10px 10px;
+  width: 25vw;
+  border: 2px solid #015f8f;
+  outline: none;
+  background: transparent;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+.input_invalid {
+  border: 3px solid red;
+}
+.error_message {
+  color: red;
+  text-align: center;
+}
+.submit_button {
+  padding: 15px 10px;
+  color: whitesmoke;
+  font-weight: 900;
+  width: 25vw;
+  background-color: #006398;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0;
+  transition: 0.3s;
+}
+.submit_button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: #0074b2;
+}
+.logo {
+  width: 25%;
+  margin-top: -20px;
+}
+.form_title {
+  transform: translateY(10px);
+  z-index: 1;
+}
+.account_present {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 10%;
+  background-color: #7ecdf4;
+  height: 20vh;
+  border-radius: 0 0 10px 10px;
+}
+
+.login_instead {
+  padding: 15px 10px;
+  color: #015f8f;
+  font-weight: 900;
+  width: 25vw;
+  background: white;
+  border: 2px solid black;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0;
+  border: 2px solid #015f8f;
+  transition: 0.3s;
+}
+
+.login_instead:hover {
+  color: white;
+  background-color: #006398;
+  cursor: pointer;
+}
